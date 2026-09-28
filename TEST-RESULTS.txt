@@ -1,0 +1,56 @@
+PASS: index.html loads with one main heading
+PASS: index.html navigation to index.html
+PASS: index.html navigation to dashboard.html
+PASS: index.html navigation to alerts.html
+PASS: index.html navigation to subscribe.html
+PASS: index.html has no page overflow at 1440px
+PASS: index.html has no page overflow at 768px
+PASS: index.html has no page overflow at 390px
+PASS: index.html has no page overflow at 320px
+PASS: dashboard.html loads with one main heading
+PASS: dashboard.html navigation to index.html
+PASS: dashboard.html navigation to dashboard.html
+PASS: dashboard.html navigation to alerts.html
+PASS: dashboard.html navigation to subscribe.html
+PASS: dashboard.html has no page overflow at 1440px
+PASS: dashboard.html has no page overflow at 768px
+PASS: dashboard.html has no page overflow at 390px
+PASS: dashboard.html has no page overflow at 320px
+PASS: alerts.html loads with one main heading
+PASS: alerts.html navigation to index.html
+PASS: alerts.html navigation to dashboard.html
+PASS: alerts.html navigation to alerts.html
+PASS: alerts.html navigation to subscribe.html
+PASS: alerts.html has no page overflow at 1440px
+PASS: alerts.html has no page overflow at 768px
+PASS: alerts.html has no page overflow at 390px
+PASS: alerts.html has no page overflow at 320px
+PASS: subscribe.html loads with one main heading
+PASS: subscribe.html navigation to index.html
+PASS: subscribe.html navigation to dashboard.html
+PASS: subscribe.html navigation to alerts.html
+PASS: subscribe.html navigation to subscribe.html
+PASS: subscribe.html has no page overflow at 1440px
+PASS: subscribe.html has no page overflow at 768px
+PASS: subscribe.html has no page overflow at 390px
+PASS: subscribe.html has no page overflow at 320px
+PASS: nagpur updates all readings and risk
+PASS: nagpur provides advice
+PASS: pune updates all readings and risk
+PASS: pune provides advice
+PASS: mumbai updates all readings and risk
+PASS: mumbai provides advice
+PASS: delhi updates all readings and risk
+PASS: delhi provides advice
+PASS: real CDN jQuery loads over file://
+PASS: empty submission flags all four required fields
+PASS: first invalid field receives focus
+PASS: invalid name, email and phone show individual errors
+PASS: valid form succeeds with optional checkbox unchecked
+PASS: success explicitly discloses no persistence
+PASS: editing clears stale success
+PASS: optional alert preference reflected
+PASS: invalid resubmission cannot retain success
+PASS: CDN failure disables submission
+PASS: CDN failure explains recovery
+PASS: no JavaScript runtime errors
