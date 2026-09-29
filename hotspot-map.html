@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Regional Heatwave Hotspot Map">
+  <title>Hotspot Map | Heatwave Intelligence</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23132036'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23ffad45'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <div class="nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-icon" aria-hidden="true">☀</span> HeatWave Intelligence<span class="brand-sub">CAMPUS AWARENESS PORTAL</span></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="alert-details.html">Alert Details</a>
+        <a href="about-system.html">About</a>
+        <a href="sources.html">Data Sources</a>
+      </nav>
+    </div>
+  </header>
+  <div class="demo-bar">
+    <span class="demo-label">SIMULATION</span> College project · Sample data only, not live weather or official warnings.
+  </div>
+  <main id="main">
+    <div class="page-heading">
+      <p class="eyebrow">REGIONAL HOTSPOTS</p>
+      <h1>Regional Heatwave Hotspot Map</h1>
+    </div>
+
+    <figure style="margin: 24px 0;">
+      <img src="https://via.placeholder.com/800x600/ffad45/132036?text=Regional+Heatwave+Map" alt="Regional heatwave hotspot map" style="width: 100%; max-width: 800px; height: auto; border-radius: 8;">
+      <figcaption style="text-align: center; color: var(--muted); font-size: 14px; margin-top: 8px;">
+        Click on regions to view details
+      </figcaption>
+    </figure>
+
+    <map name="heatmap" style="display: none;">
+      <area shape="rect" coords="0,0,400,300" href="north-zone.html" alt="North Zone" style="outline: none;">
+      <area shape="rect" coords="400,0,800,300" href="central-zone.html" alt="Central Zone" style="outline: none;">
+    </map>
+
+    <p style="margin: 24px 0; text-align: center;">
+      <img src="" usemap="#heatmap" alt="" style="display: none;">
+    </p>
+
+    <div style="background: #f0f8ff; padding: 24px; border-radius: 8; margin: 24px 0; border: 2px dashed var(--line);">
+      <h3>Region A — North Zone</h3>
+      <p>Represents the northern monitoring region. Conditions in this area are tracked for early warning and precautionary advisory generation.</p>
+      <p><a href="north-zone.html" style="color: var(--orange);">View detailed region report</a></p>
+    </div>
+
+    <div style="background: #e8f4fd; padding: 24px; border-radius: 8; margin: 24px 0; border: 2px dashed var(--line);">
+      <h3>Region B — Central Zone</h3>
+      <p>Represents the central monitoring region. This area typically experiences the highest recorded heat index values during peak summer months.</p>
+      <p><a href="central-zone.html" style="color: var(--orange);">View detailed region report</a></p>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <strong>HeatWave Intelligence</strong><span>SY BTech · Heatwave monitoring & awareness</span>
+    </div>
+    <p>K. J. Somaiya School of Engineering, Mumbai-77 (Somaiya Vidyavihar University)<br>Department of Computer Engineering</p>
+  </footer>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
